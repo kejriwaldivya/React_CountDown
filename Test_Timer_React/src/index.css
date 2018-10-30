@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+ 
+}
+.inputGroup{
+  display: inline-flex;
+  margin:auto;
+
+  
+}
+input{
+  width:35px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgb(172, 156, 156);
+  color: gray;
+  opacity: 0.6;
+  border-radius: 5px;
+  letter-spacing: 0.1em;
+  font-style: italic;
+}
+button{
+  margin: 20px;
+  padding: 10px;
+  width: 70px;
+  border-radius: 5px;
+  border:none;
+  letter-spacing: 0.1em;
+  color:white;  
+}
+
+.reset{
+  background: linear-gradient(top, #49c0f0, #2CAFE3);
+}
+.stop{
+  background: linear-gradient(top, #f62b2b, #d20202);
+}
+
+.start{
+  background: linear-gradient(top, #4ba614, #008c00);
+}
